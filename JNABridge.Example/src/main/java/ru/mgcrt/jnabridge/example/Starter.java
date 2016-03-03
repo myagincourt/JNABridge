@@ -25,7 +25,7 @@ public class Starter {
         
         System.load(relativeDllPAth);
         
-        // Let's get some resource from CLR asembly
+        // Let's get some resource from CLR assembly
         String filename = "example";
         
         String b64Input = DatatypeConverter.printBase64Binary(filename.getBytes());
